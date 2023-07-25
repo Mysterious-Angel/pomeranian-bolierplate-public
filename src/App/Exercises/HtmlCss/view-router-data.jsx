@@ -13,6 +13,7 @@ import { ArrayRenderingMetaData } from './ArrayRendering/router-data';
 import { ArrayRenderingToTableMetaData } from './ArrayRenderingToTable/router-data';
 import { FloatsAndPositioningMetaData } from './FloatsAndPositioning/router-data';
 import { MediaQueriesMetaData } from './MediaQueries/router-data';
+
 import { BooleanMetaData } from './Boolean/router-data';
 
 export const blockRouterMetaData = [
@@ -29,6 +30,7 @@ export const blockRouterMetaData = [
   ArrayRenderingToTableMetaData,
   FloatsAndPositioningMetaData,
   MediaQueriesMetaData,
+
   BooleanMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

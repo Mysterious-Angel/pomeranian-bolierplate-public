@@ -14,7 +14,6 @@ import { ArrayRenderingToTableMetaData } from './ArrayRenderingToTable/router-da
 import { FloatsAndPositioningMetaData } from './FloatsAndPositioning/router-data';
 import { MediaQueriesMetaData } from './MediaQueries/router-data';
 import { IfSwitchMetaData } from './IfSwitch/router-data';
-import { BooleanMetaData } from './Boolean/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -31,6 +30,5 @@ export const blockRouterMetaData = [
   FloatsAndPositioningMetaData,
   MediaQueriesMetaData,
   IfSwitchMetaData,
-  BooleanMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

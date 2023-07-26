@@ -1,5 +1,4 @@
 import './styles.css';
-import TextTruncate from 'react-text-truncate'; // recommend
 
 export function JsStringTraining() {}
 
@@ -25,14 +24,6 @@ function titleCase(str) {
 titleCase('anna ma psa');
 
 //5.2
-
-<TextTruncate
-  line={1}
-  element="span"
-  truncateText="…"
-  text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  textTruncateChild={<a href="#">Read on</a>}
-/>;
 
 // 5.3
 /*  //exercise 1

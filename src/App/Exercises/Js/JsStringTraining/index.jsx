@@ -1,5 +1,4 @@
 import './styles.css';
-import TextTruncate from 'react-text-truncate'; // recommend
 
 export function JsStringTraining() {}
 
@@ -28,13 +27,5 @@ titleCase('anna ma psa');
 console.log(titleCase("Jakiś dłuŻszy PrzYkŁaDowy tekst")); */
 
 //5.2
-
-<TextTruncate
-  line={1}
-  element="span"
-  truncateText="…"
-  text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  textTruncateChild={<a href="#">Read on</a>}
-/>;
 
 // 5.3

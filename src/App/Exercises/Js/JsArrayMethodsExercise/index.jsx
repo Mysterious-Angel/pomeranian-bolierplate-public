@@ -45,16 +45,32 @@ export function JsArrayMethodsExercise() {
   }
   console.log(create2DArray(2, 3));
 
+  /* 3.3 sposób Trenera
+  function create2DArray(x, y) {
+    return Array.from({length: x}, () => Array.from({length: y}, () => 0));
+}
+
+console.log(create2DArray(3,5))
+*/
+
   // 3.4
   // napisz funkcję, która przyjmuje tablicę liczb i zwraca tablicę zawierającą te same liczby ale w odwrotnej kolejności
   function reverseArray(arrayMethodExercise4) {
-    const newArray = [1, 2, 3, 4, 5];
+    const newArray = [];
     for (let i = arrayMethodExercise4.length - 1; i >= 0; i--) {
       newArray.push(arrayMethodExercise4[i]);
     }
     return newArray;
   }
   console.log(reverseArray(arrayMethodExercise2));
+
+  /* 3.4 sposób Trenera
+function reverseFunction(arr) {
+    return arr.reverse()
+}
+
+console.log(reverseFunction([1,2,3,4,5,6]))
+*/
 
   // 3.5
   // napisz funkcję, która przyjmuje tablicę obiektów, gdzie każdy obiekt reprezentuję osobę z imieniem i wiekiem i zwraca tablicę z imionami tych osób
@@ -72,6 +88,14 @@ export function JsArrayMethodsExercise() {
   ];
   console.log(getNames(arrayMethodExercise5));
 
+  /* 3.5 sposób Trenera
+  function getNames(people) {
+    return people.map(person => person.name)
+}
+
+console.log(getNames([{name: 'John', age:20 },{name: 'Adam', age:24 }]))
+*/
+
   // 5.1
   // napisz funkcję zmieniającą podany string na camelCase
   // np. toCamelCase('background-color') => 'backgroundColor'
@@ -85,7 +109,7 @@ export function JsArrayMethodsExercise() {
         newArray.push(array[i].charAt(0).toUpperCase() + array[i].slice(1));
       }
     }
-    return newArray.join('');
+    return newArray.join(' ');
   }
   const stringMethodExercise1 = 'background-color';
   console.log(toCamelCase(stringMethodExercise1));
@@ -108,6 +132,17 @@ export function JsArrayMethodsExercise() {
   const stringMethodExercise2b = 'world';
   console.log(commonLetters(stringMethodExercise2, stringMethodExercise2b));
 
+  /* 5.2 sposób Trenera
+  function commonLetters(str1, str2) {
+    const letters1 = new Set(str1)
+    const letters2 = new Set(str2)
+
+    return Array.from(letters1).filter(letter => letters2.has(letter));
+}
+
+console.log(commonLetters('hello', 'world'))
+*/
+
   // 5.3
   // napisz funkjcę, która przyjmuje tablicę słów i zwraca tablicę z liczbami określającymi ilość samoogłosek w każdym z tych słów
   // np. vowels(['hello', 'world']) => [2, 1]
@@ -121,6 +156,7 @@ export function JsArrayMethodsExercise() {
           arrayMethodExercise3[i][j] === 'e' ||
           arrayMethodExercise3[i][j] === 'i' ||
           arrayMethodExercise3[i][j] === 'o' ||
+          arrayMethodExercise3[i][j] === 'y' ||
           arrayMethodExercise3[i][j] === 'u'
         ) {
           counter++;
@@ -134,6 +170,19 @@ export function JsArrayMethodsExercise() {
   }
   const arrayMethodExercise3 = ['hello', 'world'];
   console.log(vowels(arrayMethodExercise3));
+
+  /* 5.3 sposób Trenera
+  function countVowels(word) {
+    const vowels = new Set(['a', 'u','i','o','e','y'])
+    return Array.from(word.toLowerCase()).filter((letter) => vowels.has(letter)).length;
+}
+
+function wordLengths(words) {
+    return words.map(word => countVowels(word))
+}
+
+console.log(wordLengths(['apple', 'banana']))
+*/
 
   // 5.4
   // napisz funkcję, która pobiera dwa napisy i sprawdza czy są one anagramami
@@ -169,5 +218,16 @@ export function JsArrayMethodsExercise() {
   const stringMethodExercise4b = 'hlleo';
   console.log(isAnagram(stringMethodExercise4, stringMethodExercise4b));
 
+  /* 5.4 sposób Trenera
+  function isAnagram(str1, str2) {
+
+    const sortedStr1 = Array.from(str1.toLowerCase()).sort().join()
+    const sortedStr2 = Array.from(str2.toLowerCase()).sort().join()
+
+    return sortedStr1 === sortedStr2
+}
+
+console.log(isAnagram('iceman', 'nameci'))
+*/
   return <div>test</div>;
 }

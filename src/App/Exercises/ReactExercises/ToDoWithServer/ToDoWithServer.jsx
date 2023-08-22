@@ -57,9 +57,9 @@ export function ToDoWithServer() {
           <div className="textAndButtons">
             <h4>Szczepienie kitku</h4>
             <div className="button-container">
-              <AkceptIcon />
-              <PenIcon />
-              <TrashIcon />
+              <AkceptIcon className="svg1" />
+              <PenIcon className="svg2" />
+              <TrashIcon className="svg3" />
             </div>
           </div>
           <div>

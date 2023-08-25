@@ -9,6 +9,7 @@ import { JsArrayMethodsExerciseMetaData } from './JsArrayMethodsExercise/router-
 import { ObjectsMetaData } from './Objects/router-data';
 import { JsFunctionBasicsMetaData } from './JsFunctionBasics/router-data';
 import { ExerciseJsFunctionExtendedMetaData } from './ExercisesJsFunctionExtented/router-data';
+import { DOMuseRefMetaData } from './DOMuseRef/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -20,5 +21,6 @@ export const blockRouterMetaData = [
   ObjectsMetaData,
   JsFunctionBasicsMetaData,
   ExerciseJsFunctionExtendedMetaData,
+  DOMuseRefMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

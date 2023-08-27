@@ -9,18 +9,18 @@ export const DashboardCard = () => {
   return (
     <div className="dashboard-card-wrapper">
       <div className="boxIcons">
-        <p className="first-text">Moje CV</p>
-        <p className="height-icon">
+        <div className="first-text">Moje CV</div>
+        <div className="height-icon">
           <PersonalCardIcon />
-        </p>
-        <p className="second-text">podgląd cv wraz z doświadczeniem</p>
+        </div>
+        <div className="second-text">podgląd cv wraz z doświadczeniem</div>
         <button className="button-dashboard-card">zobacz więcej</button>
       </div>
       <div className="boxIcons">
-        <p className="first-text">Ćwiczenia</p>
-        <p className="height-icon">
+        <div className="first-text">Ćwiczenia</div>
+        <div className="height-icon">
           <EditIcon />
-        </p>
+        </div>
 
         <p className="second-text">wszystkie wykonane ćwiczenia</p>
 

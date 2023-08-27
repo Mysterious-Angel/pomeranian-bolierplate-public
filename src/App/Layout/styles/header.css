@@ -29,6 +29,11 @@ header .logo {
 header .naglowek {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header .header-content {
+  display: flex;
   align-items: center;
 }

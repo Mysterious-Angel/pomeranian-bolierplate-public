@@ -15,7 +15,7 @@ export function AppHeader() {
         <div className="header-title">
           <Logo />
         </div>
-        <div>
+        <div className="header-content">
           <div className="settings-button">
             <button>
               <SettingIcon />

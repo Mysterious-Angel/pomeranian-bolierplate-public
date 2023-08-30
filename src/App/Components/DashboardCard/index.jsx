@@ -4,6 +4,7 @@ import { EditIcon } from '../Icons/EditIcon';
 import { BookIcon } from '../Icons/BookIcon';
 import { CodeIcon } from '../Icons/CodeIcon';
 import { MessageIcon } from '../Icons/MessageIcon';
+import { NavLink } from 'react-router-dom';
 
 export const DashboardCard = () => {
   return (
@@ -14,6 +15,7 @@ export const DashboardCard = () => {
           <PersonalCardIcon />
         </div>
         <div className="second-text">podgląd cv wraz z doświadczeniem</div>
+
         <button className="button-dashboard-card">zobacz więcej ></button>
       </div>
       <div className="boxIcons">

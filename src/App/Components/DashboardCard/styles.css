@@ -19,6 +19,8 @@
   background: #fff;
   flex-wrap: column wrap;
   justify-content: space-between;
+  margin-right: 30px;
+  margin-bottom: 30px;
 
   /* Path: src/App/Components/DashboardCard/styles.css */
 }

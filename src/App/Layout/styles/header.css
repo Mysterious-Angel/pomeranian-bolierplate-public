@@ -37,3 +37,22 @@ header .header-content {
   display: flex;
   align-items: center;
 }
+header .gorne-przyciski {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 15px;
+  margin-right: 10px;
+}
+header .gorny-tekst {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--color-grey);
+  margin-left: 15px;
+}
+header .moje-foto {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}

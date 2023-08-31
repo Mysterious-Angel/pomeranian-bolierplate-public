@@ -1,8 +1,8 @@
-import { CookieIcon } from '../Icons/CookieIcon';
-import './styles.css';
+//import { CookieIcon } from '../Icons/CookieIcon';
+//import './styles.css';
 
-export const CookieBanner = () => {
-  /*return (
+//export const CookieBanner = () => {
+/*return (
     <div>
       {/* <div className="overlayCokkieBanner"></div>
       <div className="allCookie">
@@ -27,7 +27,7 @@ export const CookieBanner = () => {
         <div>
           <button className="secondCookieButton">DOPASUJ ZGODY</button>
         </div>
-      </div> */}
-    </div>
-  );*/
-};
+      </div> */
+// </div>
+//);*/
+//};

@@ -4,7 +4,6 @@ import { EditIcon } from '../Icons/EditIcon';
 import { BookIcon } from '../Icons/BookIcon';
 import { CodeIcon } from '../Icons/CodeIcon';
 import { MessageIcon } from '../Icons/MessageIcon';
-import { NavLink } from 'react-router-dom';
 
 export const DashboardCard = () => {
   return (

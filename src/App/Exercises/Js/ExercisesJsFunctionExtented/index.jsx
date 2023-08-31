@@ -104,7 +104,10 @@ export function ExerciseJsFunctionExtended() {
 
   const count = () => {
     let counter = 0;
+    if (typeof counter !== 'number') {
 
+      return () => 'wrong entry';
+    }
     return () => {
       counter++;
       return counter;
@@ -113,6 +116,7 @@ export function ExerciseJsFunctionExtended() {
 
   const counter = count();
 
+  console.log(counter());
   console.log(counter());
   console.log(counter());
   console.log(counter());
@@ -152,6 +156,30 @@ export function ExerciseJsFunctionExtended() {
   console.log(calculateWithChar('/')(1, 2));
   console.log(calculateWithChar('---')(1, 2));
   console.log(calculateWithChar('+')('abc', 2));
+
+
+  // 8. Suma elementów na przekątnej macierzy
+  // Napisz funkcję o nazwie suma_przekatnej(macierz), która obliczy sumę elementów na przekątnej kwadratowej macierzy liczb całkowitych
+
+  const suma_przekatnej = (macierz) => {
+    let sum = 0;
+
+    for (let i = 0; i < macierz.length; i++) {
+      sum += macierz[i][i];
+    }
+
+    return sum;
+  };
+
+  const macierz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ];
+
+  console.log(suma_przekatnej(macierz));
+
+
 
   return <div>Test</div>;
 }

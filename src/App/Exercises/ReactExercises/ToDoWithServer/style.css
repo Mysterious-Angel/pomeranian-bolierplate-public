@@ -1,0 +1,108 @@
+.plus {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4.143px;
+  border: 0.518px solid var(--primary-primary, #fe3756);
+  background: var(--primary-primary, #fe3756);
+  color: #fff;
+  font-size: 25.893px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--gray-700, #6b7280);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 24px;
+}
+.lista {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  width: 615px;
+  margin-top: 11px;
+  margin-left: 11px;
+}
+.dodaj {
+  font-family: 'Poppins', sans-serif;
+  border: 0.518px solid var(--primary-primary, #fe3756);
+  padding: 20px 36px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  background: var(--primary-primary, #fe3756);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  line-height: 31px;
+  border-radius: 10px;
+  width: 163px;
+  margin-top: 20px;
+  margin-left: 465px;
+}
+.textAndButtons {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  padding-left: 24px;
+}
+
+.button-container {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.button-container svg {
+  margin: 0 11px;
+}
+
+.button-container svg:last-child {
+  margin-right: 0;
+}
+.boxOne {
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 28px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  border-left: 5px solid var(--gray-300, #c8cbd1);
+  display: flex;
+  flex-direction: column;
+  width: 629px;
+  height: 166px;
+}
+.boxTwo {
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 28px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  border-left: 5px solid var(--gray-300, #c8cbd1);
+  display: flex;
+  flex-direction: column;
+  width: 629px;
+  height: 166px;
+}
+.boxThree {
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 28px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  border-left: 5px solid var(--gray-300, #c8cbd1);
+  display: flex;
+  flex-direction: column;
+  width: 629px;
+  height: 166px;
+}
+.allBox {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+  text: auto;
+}

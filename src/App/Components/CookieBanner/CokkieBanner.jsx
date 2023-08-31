@@ -2,7 +2,7 @@ import { CookieIcon } from '../Icons/CookieIcon';
 import './styles.css';
 
 export const CookieBanner = () => {
-  return (
+  /*return (
     <div>
       {/* <div className="overlayCokkieBanner"></div>
       <div className="allCookie">
@@ -29,5 +29,5 @@ export const CookieBanner = () => {
         </div>
       </div> */}
     </div>
-  );
+  );*/
 };

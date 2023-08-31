@@ -1,4 +1,4 @@
-import { FirebaseLoginForm } from './FireBaseLoginForm';
+import { FirebaseLoginForm } from './FirebaseLoginForm';
 
 export const firebaseForms = {
   path: 'firebase-form',

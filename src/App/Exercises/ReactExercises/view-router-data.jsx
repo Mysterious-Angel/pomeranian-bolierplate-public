@@ -12,6 +12,7 @@ import { formsUseRefMetaData } from './Forms/router-data';
 import { basicFormsMetaData } from './BasicForms/router-data';
 import { ToDoWithServerMetaData } from './ToDoWithServer/router-data';
 import { librariesValidationForm } from './LibrariesForm/router-data';
+import { firebaseForms } from './FireBaseLoginForm/router-data';
 
 export const blockRouterMetaData = [
   SubRouteExampleMetaData,
@@ -23,7 +24,8 @@ export const blockRouterMetaData = [
   formsUseRefMetaData,
   basicFormsMetaData,
   ToDoWithServerMetaData,
-  //  librariesValidationForm,
+  librariesValidationForm,
+  firebaseForms,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

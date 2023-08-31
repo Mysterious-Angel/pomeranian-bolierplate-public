@@ -24,7 +24,7 @@ export const Layout = ({ withSidebar }) => {
         </main>
         <AppFooter />
 
-        <CookieBanner />
+        {/* <CookieBanner /> */}
       </div>
     </ErrorBoundary>
   );

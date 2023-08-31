@@ -10,7 +10,6 @@ import { IfStatementsMoreOrLessMetaData } from './IfStatementsMoreOrLess/router-
 import { MakietaPiecMetaData } from './MakietaPiec/router-data';
 import { formsUseRefMetaData } from './Forms/router-data';
 import { basicFormsMetaData } from './BasicForms/router-data';
-// import { reactUseRefMetaData } from './ReactUseRef/router-data';
 
 export const blockRouterMetaData = [
   SubRouteExampleMetaData,
@@ -21,7 +20,6 @@ export const blockRouterMetaData = [
   MakietaPiecMetaData,
   formsUseRefMetaData,
   basicFormsMetaData,
-  // reactUseRefMetaData,
 ];
 
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

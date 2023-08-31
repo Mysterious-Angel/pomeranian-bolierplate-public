@@ -4,59 +4,61 @@ import { EditIcon } from '../Icons/EditIcon';
 import { BookIcon } from '../Icons/BookIcon';
 import { CodeIcon } from '../Icons/CodeIcon';
 import { MessageIcon } from '../Icons/MessageIcon';
+import { NavLink } from 'react-router-dom';
 
 export const DashboardCard = () => {
   return (
     <div className="dashboard-card-wrapper">
       <div className="boxIcons">
-        <p className="first-text">Moje CV</p>
-        <p className="height-icon">
+        <div className="first-text">Moje CV</div>
+        <div className="height-icon">
           <PersonalCardIcon />
-        </p>
-        <p className="second-text">podgląd cv wraz z doświadczeniem</p>
-        <button className="button-dashboard-card">zobacz więcej</button>
+        </div>
+        <div className="second-text">podgląd cv wraz z doświadczeniem</div>
+
+        <button className="button-dashboard-card">zobacz więcej ></button>
       </div>
       <div className="boxIcons">
-        <p className="first-text">Ćwiczenia</p>
-        <p className="height-icon">
+        <div className="first-text">Ćwiczenia</div>
+        <div className="height-icon">
           <EditIcon />
-        </p>
+        </div>
 
-        <p className="second-text">wszystkie wykonane ćwiczenia</p>
+        <div className="second-text">wszystkie wykonane ćwiczenia</div>
 
-        <button className="button-dashboard-card">zobacz więcej</button>
+        <button className="button-dashboard-card">zobacz więcej ></button>
       </div>
       <div className="boxIcons">
-        <p className="first-text">Blog</p>
-        <p className="height-icon">
+        <div className="first-text">Blog</div>
+        <div className="height-icon">
           <BookIcon />
-        </p>
+        </div>
 
-        <p className="second-text">wpisy blogowe o technologii front-end</p>
+        <div className="second-text">wpisy blogowe o technologii front-end</div>
 
-        <button className="button-dashboard-card">zobacz więcej</button>
+        <button className="button-dashboard-card">zobacz więcej ></button>
       </div>
       <div className="boxIcons">
-        <p className="first-text">Tech stack</p>
-        <p className="height-icon">
+        <div className="first-text">Tech stack</div>
+        <div className="height-icon">
           <CodeIcon />
-        </p>
+        </div>
 
-        <p className="second-text">
+        <div className="second-text">
           stack technologiczny realizowany na kursie
-        </p>
+        </div>
 
-        <button className="button-dashboard-card">zobacz więcej</button>
+        <button className="button-dashboard-card">zobacz więcej ></button>
       </div>
       <div className="boxIcons">
-        <p className="first-text">FAQ</p>
-        <p className="height-icon">
+        <div className="first-text">FAQ</div>
+        <div className="height-icon">
           <MessageIcon />
-        </p>
+        </div>
 
-        <p className="second-text">odpowiedzi na najczęstsze pytania</p>
+        <div className="second-text">odpowiedzi na najczęstsze pytania</div>
+        <button className="button-dashboard-card">zobacz więcej ></button>
       </div>
-      <button className="button-dashboard-card">zobacz więcej</button>
     </div>
   );
 };

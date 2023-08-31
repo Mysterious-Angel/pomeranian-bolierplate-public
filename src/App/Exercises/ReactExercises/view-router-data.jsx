@@ -8,6 +8,8 @@ import { Cwiczenie2MetaData } from './Cwiczenie2/router-data';
 import { IfStatementsMetaData } from './IfStatements/router-data';
 import { IfStatementsMoreOrLessMetaData } from './IfStatementsMoreOrLess/router-data';
 import { MakietaPiecMetaData } from './MakietaPiec/router-data';
+import { formsUseRefMetaData } from './Forms/router-data';
+import { basicFormsMetaData } from './BasicForms/router-data';
 import { ToDoWithServerMetaData } from './ToDoWithServer/router-data';
 
 export const blockRouterMetaData = [
@@ -17,6 +19,8 @@ export const blockRouterMetaData = [
   IfStatementsMetaData,
   IfStatementsMoreOrLessMetaData,
   MakietaPiecMetaData,
+  formsUseRefMetaData,
+  basicFormsMetaData,
   ToDoWithServerMetaData,
 ];
 

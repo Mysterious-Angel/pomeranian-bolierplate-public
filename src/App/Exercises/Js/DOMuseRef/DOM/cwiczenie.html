@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="buttonClick">Kliknij we mnie</button>
+    <button id="showAndHideButton">Pokaż i ukryj</button>
+    <div show="true" id="showAndHideDiv">
+      To jest div do pokazania i ukrycia
+    </div>
+    <button id="takenewdiv">Tu powstanie nowy div</button>
+</br>Div
+    <div class="takenewdiv"></div>
+
+    <script>
+      buttonClick = document.getElementById('buttonClick');
+      buttonClick.onclick = (e) => {
+        console.log(
+          'test z event listenera bezpośrednio nadpisanego property dom elementu',
+          e
+        );
+        buttonClick.textContent = 'Kliknięto we mnie';
+      };
+
+      showAndHideButton = document.getElementById('showAndHideButton');
+      showAndHideDiv = document.getElementById('showAndHideDiv');
+
+      showAndHideButton.onclick = (e) => {
+        console.log('showAndHideButton', showAndHideButton);
+        console.log('showAndHideDiv', showAndHideDiv);
+        if (showAndHideDiv.getAttribute('show') === 'true') {
+          showAndHideDiv.setAttribute('show', 'false');
+          showAndHideDiv.style.display = 'none';
+        } else {
+          showAndHideDiv.setAttribute('show', 'true');
+          showAndHideDiv.style.display = 'block';
+        }
+      };
+
+    const takenewdiv = document.getElementById('takenewdiv');
+    const newdivitem = document.createElement('newdivitem');
+    takenewdiv.appendChild(newdivitem);
+
+       
+        console.log(newdivitem);
+        newdivitem.textContent = 'Jest nas wiele';
+
+
+
+
+    
+
+
+    </script>
+  </body>
+</html>

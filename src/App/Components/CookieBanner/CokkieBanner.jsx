@@ -4,7 +4,7 @@ import './styles.css';
 export const CookieBanner = () => {
   /*return (
     <div>
-      <div className="overlayCokkieBanner"></div>
+      {/* <div className="overlayCokkieBanner"></div>
       <div className="allCookie">
         <div className="cookieIcon">
           <CookieIcon />
@@ -27,7 +27,7 @@ export const CookieBanner = () => {
         <div>
           <button className="secondCookieButton">DOPASUJ ZGODY</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );*/
 };
